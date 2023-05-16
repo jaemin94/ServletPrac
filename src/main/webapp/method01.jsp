@@ -1,17 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 	<form method="get" action="MethodServlet">
-		<input type="submit" value="get ¹æ½ÄÀ¸·Î È£Ãâ"/>
+		<input type="submit" value="get ë°©ì‹ìœ¼ë¡œ í˜¸ì¶œ"/>
 	</form>
 	<form method="post" action="MethodServlet">
-		<input type="submit" value="post ¹æ½ÄÀ¸·Î È£Ãâ"/>
+		<input type="submit" value="post ë°©ì‹ìœ¼ë¡œ í˜¸ì¶œ"/>
 	</form>
 
 </body>
