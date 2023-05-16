@@ -8,9 +8,9 @@
 <script type="text/javascript" src="param.js"></script>
 </head>
 <body>
-	<form method="get" action="Paramservlet" name="frm">
+	<form method="get" action="ParamServlet" name="frm">
 		id : <input type = "text" name="id"/> <br />
-		age added: <input type="text" name="age">
+		age : <input type="text" name="age">
 		<input type="submit" value="전송" onclick="return check();"/>
 	</form>
 
